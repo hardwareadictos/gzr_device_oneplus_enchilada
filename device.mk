@@ -22,7 +22,9 @@
 # definition file).
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
+# OppoCommon
+PRODUCT_PACKAGES += \
+    OppoCommon  
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
